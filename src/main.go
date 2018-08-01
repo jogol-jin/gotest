@@ -5,6 +5,7 @@ import (
 	"net/http"
 	"github.com/Unknwon/log"
 	"io/ioutil"
+	"os"
 )
 
 //test
@@ -25,4 +26,20 @@ func main() {
 		return
 	}
 	fmt.Println(string(b))
+	f, err := os.Open("/Users/klook/git/gotest/baidu.html")
+	if err != nil {
+		log.Info("open file error, err:%v", err)
+		return
+	}
+	fmt.Println(f.Name())
+	//err = f.Chmod(666)
+	//if err != nil {
+	//	log.Info("chmod error, err:%v", err)
+	//	return
+	//}
+	err = ioutil.WriteFile(f.Name(), b, 0666)
+	if err != nil {
+		log.Info("write file error, err:%v", err)
+		return
+	}
 }
