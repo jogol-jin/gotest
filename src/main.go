@@ -48,4 +48,5 @@ func main() {
 	fmt.Println("debug commit1")
 	fmt.Println("debug commit2")
 	fmt.Println("debug commit3")
+	fmt.Println("添加表情")
 }
