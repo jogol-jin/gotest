@@ -42,5 +42,7 @@ func main() {
 		log.Info("write file error, err:%v", err)
 		return
 	}
-	fmt.Println("add commit1")
+	fmt.Println("add commit1 ")
+	fmt.Println("add commit2 ")
+	fmt.Println("add commit3 ")
 }
