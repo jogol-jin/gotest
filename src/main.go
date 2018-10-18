@@ -45,4 +45,7 @@ func main() {
 	fmt.Println("add commit1 ")
 	fmt.Println("add commit2 ")
 	fmt.Println("add commit3 ")
+	fmt.Println("debug commit1")
+	fmt.Println("debug commit2")
+	fmt.Println("debug commit3")
 }
