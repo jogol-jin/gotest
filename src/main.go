@@ -49,5 +49,4 @@ func main() {
 	fmt.Println("debug commit2")
 	fmt.Println("debug commit3")
 	fmt.Println("添加表情")
-	fmt.Println("添加一个苹果表情")
 }
