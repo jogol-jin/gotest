@@ -3,6 +3,6 @@ package main
 import (
 	"fmt"
 )
-func main() {
+func loggg() {
 	fmt.Println("this is a git test!")
 }
